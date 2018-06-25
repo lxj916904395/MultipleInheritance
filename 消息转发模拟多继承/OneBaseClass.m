@@ -8,5 +8,7 @@
 #import "OneBaseClass.h"
 
 @implementation OneBaseClass
-
+-(void)addOneBaseClass:(NSString *)string{
+    NSLog(@"OneBaseClass---%@",string);
+}
 @end

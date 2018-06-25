@@ -15,6 +15,9 @@
 		4DC8A08820E07CFD00229631 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8A08720E07CFD00229631 /* main.m */; };
 		4DC8A09220E07CFD00229631 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8A09120E07CFD00229631 /* _________Tests.m */; };
 		4DC8A09D20E07CFD00229631 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8A09C20E07CFD00229631 /* _________UITests.m */; };
+		4DC8A0AC20E07D3700229631 /* OneBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8A0AB20E07D3700229631 /* OneBaseClass.m */; };
+		4DC8A0AF20E07D9D00229631 /* TwoBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8A0AE20E07D9D00229631 /* TwoBaseClass.m */; };
+		4DC8A0B220E07DCB00229631 /* SubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8A0B120E07DCB00229631 /* SubClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		4DC8A09820E07CFD00229631 /* 消息转发模拟多继承UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "消息转发模拟多继承UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC8A09C20E07CFD00229631 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
 		4DC8A09E20E07CFD00229631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC8A0AA20E07D3700229631 /* OneBaseClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneBaseClass.h; sourceTree = "<group>"; };
+		4DC8A0AB20E07D3700229631 /* OneBaseClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneBaseClass.m; sourceTree = "<group>"; };
+		4DC8A0AD20E07D9D00229631 /* TwoBaseClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoBaseClass.h; sourceTree = "<group>"; };
+		4DC8A0AE20E07D9D00229631 /* TwoBaseClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoBaseClass.m; sourceTree = "<group>"; };
+		4DC8A0B020E07DCB00229631 /* SubClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubClass.h; sourceTree = "<group>"; };
+		4DC8A0B120E07DCB00229631 /* SubClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				4DC8A08320E07CFD00229631 /* LaunchScreen.storyboard */,
 				4DC8A08620E07CFD00229631 /* Info.plist */,
 				4DC8A08720E07CFD00229631 /* main.m */,
+				4DC8A0AA20E07D3700229631 /* OneBaseClass.h */,
+				4DC8A0AB20E07D3700229631 /* OneBaseClass.m */,
+				4DC8A0AD20E07D9D00229631 /* TwoBaseClass.h */,
+				4DC8A0AE20E07D9D00229631 /* TwoBaseClass.m */,
+				4DC8A0B020E07DCB00229631 /* SubClass.h */,
+				4DC8A0B120E07DCB00229631 /* SubClass.m */,
 			);
 			path = "消息转发模拟多继承";
 			sourceTree = "<group>";
@@ -261,7 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC8A0AC20E07D3700229631 /* OneBaseClass.m in Sources */,
 				4DC8A07D20E07CFB00229631 /* ViewController.m in Sources */,
+				4DC8A0AF20E07D9D00229631 /* TwoBaseClass.m in Sources */,
+				4DC8A0B220E07DCB00229631 /* SubClass.m in Sources */,
 				4DC8A08820E07CFD00229631 /* main.m in Sources */,
 				4DC8A07A20E07CFB00229631 /* AppDelegate.m in Sources */,
 			);

@@ -6,7 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
+@protocol TwoBaseClassProtocol
+- (void)addTwoBaseClass:(NSString *)string;
+@end
 
-@interface TwoBaseClass : NSObject
+@interface TwoBaseClass : NSObject<TwoBaseClassProtocol>
 
 @end

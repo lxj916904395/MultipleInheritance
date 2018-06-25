@@ -7,6 +7,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface OneBaseClass : NSObject
+@protocol OneBaseClassProtocol
+- (void)addOneBaseClass:(NSString *)string;
+@end
+
+@interface OneBaseClass : NSObject<OneBaseClassProtocol>
 
 @end

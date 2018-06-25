@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "SubClass.h"
 
 @interface ViewController ()
 
@@ -15,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
+    SubClass *sub = [SubClass new];
+    [sub addOneBaseClass:@"zhangsan"];
+    [sub addTwoBaseClass:@"lisi"];
 }
 
 

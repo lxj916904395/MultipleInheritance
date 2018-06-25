@@ -8,5 +8,7 @@
 #import "TwoBaseClass.h"
 
 @implementation TwoBaseClass
-
+-(void)addTwoBaseClass:(NSString *)string{
+    NSLog(@"TwoBaseClass---%@",string);
+}
 @end

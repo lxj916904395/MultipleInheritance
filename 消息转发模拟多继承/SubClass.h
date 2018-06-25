@@ -6,7 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface SubClass : NSObject
+#import "OneBaseClass.h"
+#import "TwoBaseClass.h"
+@interface SubClass : NSObject<TwoBaseClassProtocol,OneBaseClassProtocol>
 
 @end
